@@ -7,7 +7,7 @@ class BBVA:
   asientos= "30"
   tabletas= "5"
   camaras= "10"
-  máquina_contar_billetes = "3"
+  maquina_contar_billetes = "3"
   copiadoras= "15"
   scaner_de_huella= "20"
   caja_fuerte="1"
@@ -33,7 +33,7 @@ class BBVA:
     print("tabletas"+str(self.tabletas))
     print("camaras"+str(self.camaras))
     print("maquina_contar_billetes"+str(self.maquina_contar_billetes))
-    print("copiadora="+str(self.copiadora))
+    print("copiadoras="+str(self.copiadoras))
     print("scaner_de_huella"+str(self.scaner_de_huella))
     print("caja_fuerte"+str(self.caja_fuerte))
     
