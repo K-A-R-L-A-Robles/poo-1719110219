@@ -1,16 +1,16 @@
-class BBVA:
+class cajero:
   "Atríbuto"
 
-  cajeros= "8"
-  ventanillas= "10"
-  personal= "50"
-  sillas= "30"
-  computadora = "25"
-  pantallas= "5"
-  maquina_contar_billetes = "3"
-  copiadora= "15"
-  maquina_de_turnos= "1"
-  altavoces="4"
+  crear_cuentas= "muchas"
+  botones= "15"
+  camara= "1"
+  apartado_tarjeta= "1"
+  dinero = "mucho"
+  pantalla= "1"
+  color = "gris"
+  apartado_dinero= "1"
+  tarjeta_madre= "1"
+  conector_de_luz="1"
  
   "Métodos"
   def retirar(self):
@@ -25,19 +25,19 @@ class BBVA:
     print("pagar servicios")  
 
   def _init_(self):
-    print("atributos banco BBVA")
-    print("cajeros="+str(self.cajeros))
-    print("ventanillas"+str(self.ventanillas))
-    print("personal="+str (self.personal))
-    print("sillas="+str(self.sillas))
-    print("computadoras"+str(self.computadora))
-    print("pantallas="+str(self.pantallas))
-    print("maquina contar billetes="+str(self.maquina_contar_billetes))
-    print("copiadora="+str(self.copiadora))
-    print("maquina_de_turnos="+str(self.maquina_de_turnos))
-    print("altavoces="+str(self.altavoces))
+    print("atributos cajero")
+    print("crear_cuentas="+str(self.crear_cuentas))
+    print("botones"+str(self.botones))
+    print("camara="+str (self.camara))
+    print("apartado_tarjetas="+str(self.apartado_tarjetas))
+    print("dinero"+str(self.dinero))
+    print("pantalla="+str(self.pantalla))
+    print("color="+str(self.color))
+    print("apartado_dinero="+str(self.apartado_dinero))
+    print("tarjeta_madre="+str(self.tarjeta_madre))
+    print("conector_de_luz="+str(self.conector_de_luz))
     
-objeto = BBVA()
+objeto = cajero()
 objeto.retirar()
 objeto.depositar()
 objeto.transferencia()
