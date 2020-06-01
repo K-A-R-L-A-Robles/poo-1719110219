@@ -3,8 +3,8 @@ class cajero:
   "atríbutos"
   camara= 1
   pantalla=1
-  color= gris
-  tamaño=1.25m
+  color= "gris"
+  tamaño=1.25
   botones= 60
   
   #métodos
@@ -49,5 +49,5 @@ print("apartado_tarjeta= "+str(BBVA.apartado_tarjeta))
 print("apartado_tarjeta= "+str(BBVA.apartado_ticket))
 BBVA.encender()
 BBVA.retirar()
-BBVA.tranferir()
+BBVA.transferir()
 BBVA.ahorrar()

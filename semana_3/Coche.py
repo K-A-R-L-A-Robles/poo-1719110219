@@ -1,3 +1,4 @@
+
 class coche:
    
   "atríbutos"
@@ -9,11 +10,11 @@ class coche:
   
   #métodos
 
-  def encender(self):
-    print("encender")
+  def arancar(self):
+    print("arancar")
 
   def acelerar(self):
-    print("acelersr")
+    print("acelerar")
 
   
   def __init__(self):
@@ -26,7 +27,7 @@ class KIA(coche):
   #atríbutos
   
   Capacidad_de_pasajeros= 5
-  ventanas""=4
+  ventana=4
 
   #métodos
 
@@ -49,7 +50,7 @@ print("espejos= "+str(KIA.espejos))
 print("puertas= "+str(KIA.puertas))
 print("Capacidad de pasajeros= "+str(KIA.Capacidad_de_pasajeros))
 print("ventanas= "+str(KIA.ventanas)
-KIA.encender()
+KIA.arancar()
 KIA.acelerar()
 KIA.velocidad_maxima()
 KIA.transportarse()

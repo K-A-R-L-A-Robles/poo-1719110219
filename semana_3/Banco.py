@@ -40,7 +40,7 @@ class BBVA(banco):
     print("servidor de un banco")
     pass
 
- BBVA= BBVA()
+BBVA= BBVA()
 
 print("cajeros= "+str(BBVA.cajeros))
 print("ventanillas= "+str(BBVA.ventanillas))

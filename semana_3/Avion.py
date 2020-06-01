@@ -30,8 +30,8 @@ class viva_aerobus(avion):
 
   #métodos
 
-   def altura_maxima(self):
-    print("altura_maxima 41,000 pies")
+  def altura(self):
+    print("altura")
 
   def viajar(self):
     print("viajar")
@@ -51,5 +51,5 @@ print("ventanillas_disponibles= "+str(viva_aerobus.ventanillas_disponibles))
 print("color= "+str(viva_aerobus.color))
 viva_aerobus.acelerar()
 viva_aerobus.despegar()
-viva_aerobus.altura_maxima()
+viva_aerobus.altura()
 viva_aerobus.viajar()
