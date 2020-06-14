@@ -1,11 +1,11 @@
 
-class Palindromo: # Clase
-    def _init_(self):#constructor
+class Palindromo: #Es para definir mi clase  
+    def _init_(self):#es el constructor 
         pass
-    def palindromo(self): # Metodo que hace las comparaciones entre las cadenas
-        respuesta = "S" # Respuesta de satisfactoria para repetir el analisis
+    def palindromo(self): #formas derealizar comparaciones entre cadenas
+        respuesta = "S" # es una respuesta que indica que estas en lo correcto o estas de acuerdo
         
-        while respuesta == "S" or respuesta== "s": # Si la respuesta es S se hara otro analisis
+        while respuesta == "S" or respuesta== "s": # es la manera de decir si se vueleve a realizar otro analisis dela cadena 
             cad = input("inserta tu cadena: ") # Insertamos la cadena a analizar
             numeroespacios= 0 # Almacena el numero de espacios
             cad = cad.lower() # Reemplaza las mayusculas por minusculas
@@ -45,7 +45,7 @@ class Palindromo: # Clase
 
 cadenapalindromo = Palindromo()
 
-cadenapalindromo.metodopalindromo()
+cadenapalindromo.palindromo()
 
 
 
