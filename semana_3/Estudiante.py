@@ -3,7 +3,7 @@ class estudiante:
   "atríbutos"
   mochila=1
   libreta= 8
-  plumones=10
+  marca_texto=3
   colores=12
   lapicera=1
   
@@ -21,7 +21,7 @@ class estudiante:
 
         
 
-class prepa(estudiante):
+class preparatoria(estudiante):
   
   #atríbutos
   
@@ -37,20 +37,20 @@ class prepa(estudiante):
     print("demostrar")
 
   def __init__(self):
-    print("características de estudiante de prepa")
+    print("elementos de estudiante de preparatoria")
     pass
 
-prepa=prepa()
+preparatoria=preparatoria()
 
-print("mochila= "+str(prepa.mochila.ventanillas))
-print("libreta= "+str(prepa.libreta))
-print("plumones= "+str(prepa.pulmones))
-print("colores="+str(prepa.colores))
-print("lapicera="+str(prepa.lapicera))
-print("uniforme="+str(prepa.uniforme))
-print("libros="+str(prepa.libros))
+print("mochila= "+str(preparatoria.mochila))
+print("libreta= "+str(preparatoria.libreta))
+print("marca_texto= "+str(preparatoria.marca_texto))
+print("colores="+str(preparatoria.colores))
+print("lapicera="+str(preparatoria.lapicera))
+print("uniforme="+str(preparatoria.uniforme))
+print("libros="+str(preparatoria.libros))
 
-prepa.aprender()
-prepa.estudiar()
-prepa.colegiatura()
-prepa.demostrar()
+preparatoria.aprender()
+preparatoria.estudiar()
+preparatoria.colegiatura()
+preparatoria.demostrar()

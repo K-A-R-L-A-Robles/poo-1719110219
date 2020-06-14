@@ -4,17 +4,17 @@ class coche:
   "atríbutos"
   llantas= 4
   acientos=5
-  volante= 1
-  espejos= 2
-  puertas= 4
+  volante=1
+  espejos=2
+  puertas=4
   
   #métodos
 
-  def arancar(self):
-    print("arancar")
+  def acelera(self):
+    print("acelera")
 
-  def acelerar(self):
-    print("acelerar")
+  def velocidad_maxima(self):
+    print("velocidad_maxima")
 
   
   def __init__(self):
@@ -31,11 +31,11 @@ class KIA(coche):
 
   #métodos
 
-  def  velocidad_maxima(self):
-    print("Velocidad máxima:176.28")
-
   def transportarse(self):
     print("transportarse")
+
+  def encender(self):
+    print("encender")
 
   def __init__(self):
     print("constructor de un coche KIA")
@@ -50,7 +50,7 @@ print("espejos= "+str(KIA.espejos))
 print("puertas= "+str(KIA.puertas))
 print("Capacidad de pasajeros= "+str(KIA.Capacidad_de_pasajeros))
 print("ventanas= "+str(KIA.ventanas)
-KIA.arancar()
-KIA.acelerar()
+KIA.acelera()
 KIA.velocidad_maxima()
 KIA.transportarse()
+KIA.encender()

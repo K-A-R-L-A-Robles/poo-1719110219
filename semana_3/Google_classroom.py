@@ -1,54 +1,48 @@
-class avion:
-
+class google_classroom:
+  
 	"atríbutos"
-	alas = 2
-	acientos = 416
-	pilotos = 2
-	volantes = 2
-	ventanillas = 60
+	 materias=8
+	 profesores= 8
+   alumnos= 20
+	 apartado_comentarios=1
 
 	#métodos
 
-	def encender(self):
-		print("encender")
+	def calificación(self):
+		print("calificación")
 
-	def apagar(self):
-		print("volar")
+	def revisión(self):
+		print("revisión")
 
 	def __init__(self):
 		pass
 
 
-class Boeing(avion):
+class google_classroom(google_clasroom):
 
 	#atríbutos
 
-	Capacidad_de_pasajeros = 416.
-	longitud = "70,66 m."
+	color="amarillo y verde"
+	apartado_pendientes= 1
 
 	#métodos
 
-	def velocidad_maxima(self):
-		print("Velocidad máxima: 528 nudos")
+	def retardios(self):
+		print("retardios")
 
-	def transportarse(self):
-		print("transportarse")
+	def terminadas(self):
+		print("terminadas")
 
 	def __init__(self):
-		print("constructor de un avíon Boeing 747")
+		print("constructor de google_classroom")
 		pass
-
-
-Boeing_747 = Boeing()
-
-print("alas= " + str(Boeing_747.alas))
-print("acientos= " + str(Boeing_747.acientos))
-print("pilotos= " + str(Boeing_747.pilotos))
-print("libretas= " + str(Boeing_747.volantes))
-print("ventanillas= " + str(Boeing_747.ventanillas))
-print("Capacidad de pasajeros= " + str(Boeing_747.Capacidad_de_pasajeros))
-print("longitud= " + str(Boeing_747.longitud))
-Boeing_747.encender()
-Boeing_747.apagar()
-Boeing_747.velocidad_maxima()
-Boeing_747.transportarse()
+print("materias")
+str(google_classroom.materias))
+print("profesores= " + str(google_classroom.profesores))
+print("alumnos= " + str(google_classroom.alumnos))
+print("color= " + str(google_classroom.color))
+print("apartado_comentarios= " + str(google_classroom.apartado_comentarios))
+google_classroom.calificación()
+google_classroom.revisión()
+google_classroom.retardios()
+google_classroom.terminadas()

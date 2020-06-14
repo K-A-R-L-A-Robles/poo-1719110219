@@ -1,19 +1,18 @@
-class avion:
+class serie:
    
   "atríbutos"
-  alas= 2
-  acientos = 416
-  pilotos= 2
-  volantes= 2
-  ventanillas= 60
+  capítulos=10
+  canal=235
+  género="romance,amor,terror,ficción,"
+  duración="1hr"
   
   #métodos
 
-  def encender(self):
-    print("encender")
+  def entretenimiento(self):
+    print("entretenimiento")
 
-  def apagar(self):
-    print("volar")
+  def comercialización(self):
+    print("comercialización")
 
   
   def __init__(self):
@@ -21,35 +20,35 @@ class avion:
 
         
 
-class Boeing(avion):
-  
+class botched (serie):
+
   #atríbutos
   
-  Capacidad_de_pasajeros= 416.
-  longitud= "70,66 m."
+  personajes_principales=2
+  capitulos_diarios=2
 
   #métodos
 
-  def  velocidad_maxima(self):
-    print("Velocidad máxima: 528 nudos")
+  def horario (self):
+    print("horario: 8-9")
 
-  def transportarse(self):
-    print("transportarse")
+  def lecciones(self):
+    print("lecciones")
 
   def __init__(self):
     print("constructor de un avíon Boeing 747")
     pass
 
-Boeing_747 = Boeing()
+ botched=botched ()
 
-print("alas= "+str(Boeing_747.alas))
-print("acientos= "+str(Boeing_747.acientos))
-print("pilotos= "+str(Boeing_747.pilotos))
-print("libretas= "+str(Boeing_747.volantes))
-print("ventanillas= "+str(Boeing_747.ventanillas))
-print("Capacidad de pasajeros= "+str(Boeing_747.Capacidad_de_pasajeros))
-print("longitud= "+str(Boeing_747.longitud))
-Boeing_747.encender()
-Boeing_747.apagar()
-Boeing_747.velocidad_maxima()
-Boeing_747.transportarse()
+print("capítulos = "+str(botched.ccapítulos))
+print("canal= "+str(botched.canal))
+print("género= "+str(botched.género))
+print("duración="+str(botched.duración))
+
+print("personajes_principales personajes_principales = "+str(ao.p))
+print("capitulos _diarios= "+str(botched.capitulos_diarios))
+botched.entretenimiento()
+botched.ccomercialización()
+botched.horario()
+botched.lecciones() 

@@ -1,19 +1,19 @@
-class avion:
+class vacaciones:
    
   "atríbutos"
-  alas= 2
-  acientos = 416
-  pilotos= 2
-  volantes= 2
-  ventanillas= 60
+  maletas=3
+  bikini=4
+  boletos= 2
+  hotel=1
+  cuarto=1
   
   #métodos
 
-  def encender(self):
-    print("encender")
+  def viajar(self):
+    print("viajar")
 
-  def apagar(self):
-    print("volar")
+  def conocer(self):
+    print("conocer")
 
   
   def __init__(self):
@@ -21,35 +21,34 @@ class avion:
 
         
 
-class Boeing(avion):
+class playa (vacaciones):
   
   #atríbutos
   
-  Capacidad_de_pasajeros= 416.
-  longitud= "70,66 m."
+  bloqueador=1
+  flotadores=3
 
   #métodos
 
-  def  velocidad_maxima(self):
-    print("Velocidad máxima: 528 nudos")
+  def   (self):
+    print( máximamáximmáxmá")
 
   def transportarse(self):
     print("transportarse")
 
   def __init__(self):
-    print("constructor de un avíon Boeing 747")
+    print(" viaje a la playa de vacación ")
     pass
 
-Boeing_747 = Boeing()
-
-print("alas= "+str(Boeing_747.alas))
-print("acientos= "+str(Boeing_747.acientos))
-print("pilotos= "+str(Boeing_747.pilotos))
-print("libretas= "+str(Boeing_747.volantes))
-print("ventanillas= "+str(Boeing_747.ventanillas))
-print("Capacidad de pasajeros= "+str(Boeing_747.Capacidad_de_pasajeros))
-print("longitud= "+str(Boeing_747.longitud))
-Boeing_747.encender()
-Boeing_747.apagar()
-Boeing_747.velocidad_maxima()
-Boeing_747.transportarse()
+ playa=playa()
+print("alas= "+str(playa.alas))
+print("acientos= "+str(playa.acientos))
+print("pilotos= "+str(playa.pilotos))
+print("libretas= "+str(playa.volantes))
+print("ventanillas= "+str(playa.ventanillas))
+print("Capacidad de pasajeros= "+str(playa.Capacidad_de_pasajeros))
+print("longitud= "+str(playa.longitud))
+playa.encender()
+playa.apagar()
+playa.velocidad_maxima()
+playa.transportarse()

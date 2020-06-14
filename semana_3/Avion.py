@@ -1,8 +1,8 @@
 class avion:
    
   "atríbutos"
-  alas= 2
-  cabina= 1
+  alas=2
+  cabina=1
   azafata=6
   baños= 2
   asientos= 200
@@ -37,13 +37,13 @@ class viva_aerobus(avion):
     print("viajar")
 
   def __init__(self):
-    print("constructor de un avíon viva_aerobus")
+    print("constructor de un avion viva_aerobus")
     pass
 
 viva_aerobus =viva_aerobus() 
 
 print("alas= "+str(viva_aerobus.alas))
-print("cabina= "+str(viva.cabina))
+print("cabina="+str(viva.cabina))
 print("azafata= "+str(viva_aerobus.azafata))
 print("baños= "+str(viva_aerobus.baños))
 print("asientos= "+str(viva_aerobus.asientos))
