@@ -1,4 +1,3 @@
-
 class palindromo1: #Es para definir mi clase  
     def _init_(self):#definí mi constructor
         pass
