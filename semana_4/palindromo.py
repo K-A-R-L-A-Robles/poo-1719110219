@@ -3,7 +3,6 @@ class palindromo1: #Es para definir mi clase
         pass
     def palindromo(self): #formas derealizar comparaciones entre cadenas
         respuesta = "S" # es una respuesta que indica que estas en lo correcto o estas de acuerdo
-        
         while respuesta == "S" or respuesta== "s": # mientras sea verdad iterara todo
             cad = input("inserta tu cadena de texto: \n") # Insertamos la cadena a analizar
             numeroespacios= 0 # Almacenara el numero de espacios iniciando mi contador en cero
@@ -27,7 +26,7 @@ class palindromo1: #Es para definir mi clase
                 print("La cadena No es un palindromo") #si no esun palindromo imprimira que no es un palindromo
             respuesta= input("Desea anlizar otra cadena? s/n: ") #pregunte si el usuario desea ingresar otra cadena de texto para iterarla
             if respuesta == "n" or respuesta == "N": 
-                break #Fin del analisis
+                break 
 
 textopalindromo = palindromo1()
 textopalindromo.palindromo()
