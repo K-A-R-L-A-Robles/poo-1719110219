@@ -6,7 +6,7 @@ class Palindromo: #Es para definir mi clase
         respuesta = "S" # es una respuesta que indica que estas en lo correcto o estas de acuerdo
         
         while respuesta == "S" or respuesta== "s": # es la manera de decir si se vueleve a realizar otro analisis dela cadena 
-            cad = input("inserta tu cadena: ") # Insertamos la cadena a analizar
+            cad = input("inserta tu cadena de texto: ") # Insertamos la cadena a analizar
             numeroespacios= 0 # Almacena el numero de espacios
             cad = cad.lower() # Reemplaza las mayusculas por minusculas
             for espacios in cad: # Analizara la cadena
@@ -32,7 +32,7 @@ class Palindromo: #Es para definir mi clase
             for i in cad: # i tendra como inicio la ultima letra de la cadena hasta la primera
                 palindromo = i + palindromo # sera la cadena invertida que se obtuvo de la línea 33
             if cad == palindromo: # Analiza si la cadena es un palindromo 
-                print("La cadena es un Palindromo") # Nos afirma si la cadena es un palindromo
+                print("El texto es un Palindromo") # Nos afirma si la cadena es un palindromo
             
             else: 
                 
@@ -42,10 +42,5 @@ class Palindromo: #Es para definir mi clase
             if respuesta == "n" or respuesta == "N": # Si la respuesta es N se termina de ejecutar el analisis
                 break #Fin del analisis
 
-
-cadenapalindromo = Palindromo()
-
-cadenapalindromo.palindromo()
-
-
-
+textopalindromo = Palindromo()
+textopalindromo.palindromo()
